@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda gratis - Tiendanube</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="imgs\favicon.ico">
+    <!--robé el logo del favicon de la pagina original y para agregarlo lo vi en w3school https://www.w3schools.com/html/html_favicon.asp-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <!-- robé la misma fuente que tiene la pagina original, está gratis en google fonts -->
+</head>
+
+<body>
+    <header>
+        <div class="row-aling-items">
+            <div class="logo-container">
+                <img class="navbar-logo" src="imgs/logo-cropped (1).svg" alt="logo Tiendanube">
+            </div>
+            <div class="spacer"></div>
+            <div class="conteiner-q1">
+                <div class="nav-links">
+                    <a class="create-btn redonda blanca padding-10x24" href="">Crear tienda gratis</a>
+                    <div class="login">
+                        <a href="">
+                            <!-- este es el icono de la personita extraida de la pagina original -->
+                            <svg class="icon-login" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 .5A7.77 7.77 0 0 0 0 8a7.77 7.77 0 0 0 8 7.5A7.77 7.77 0 0 0 16 8 7.77 7.77 0 0 0 8 .5M5.16 13.67A2.84 2.84 0 0 1 8 11.51a2.82 2.82 0 0 1 2.84 2.16 7.24 7.24 0 0 1-5.68 0m6.84-.61a4.09 4.09 0 0 0-4-2.77 4.09 4.09 0 0 0-3.95 2.78A6.14 6.14 0 0 1 1.25 8 6.52 6.52 0 0 1 8 1.75 6.52 6.52 0 0 1 14.75 8 6.11 6.11 0 0 1 12 13.06">
+                                </path>
+                                <path
+                                    d="M8.05 4.3A2.33 2.33 0 0 0 5.8 6.7a2.33 2.33 0 0 0 2.25 2.4 2.33 2.33 0 0 0 2.25-2.4 2.33 2.33 0 0 0-2.25-2.4m0 3.55a1.08 1.08 0 0 1-1-1.15 1.08 1.08 0 0 1 1-1.15 1.08 1.08 0 0 1 1 1.15 1.08 1.08 0 0 1-1 1.15">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="">
+                            Login
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- primer section  -->
+    <section class="hero-section botton-padding63">
+        <div class="hero-div">
+            <div class="col-lg">
+                <div class="padding-low">
+                    <h1 class="section-title">¡Creá tu tienda online gratis y en minutos!</h1>
+                    <p class="mt-4">Configuración simple. Sin costo mensual ni costo por transacción.</p>
+                    <form action="">
+                        <div class="imput-btns redonda">
+                            <input class="email-fill" type="email" placeholder="nombre@ejemplo.com">
+                            <div><input class="create-btn redonda azul margin-left-30" type="button"
+                                    value="Crear tienda gratis"></div>
+                        </div>
+                        <p class="text-small">No necesitás tarjeta de crédito para comenzar.</p>
+                    </form>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img id="hero-girl-img" src="imgs\hero-plan-gratis-image-ar-800x665-1.webp"
+                    alt="foto chica con celular en la mano">
+            </div>
+        </div>
+    </section>
+    <!-- segundo section -->
+
+    <section class="section upperpaddin-120">
+        <div class="conteiner">
+            <div class="centrado">
+                <h2 class="section titulo">Una tienda online gratis con todo lo que <br> necesitás</h2>
+                <div class="small-spacer"></div>
+            </div>
+            <div class="centrado espaciado">
+                <div class="card-container redonda">
+                    <div>
+                        <div class="iconitos circulo">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M2.67 10.73a3.52 3.52 0 0 0-.94 1.93 5 5 0 0 0-.07 1.1v.58h.8a5 5 0 0 0 .88-.08 3.46 3.46 0 0 0 1.93-.94 1.76 1.76 0 0 0-.14-2.48 1.76 1.76 0 0 0-2.46-.11m1.74 1.73a2.26 2.26 0 0 1-1.26.6h-.22v-.22a2.26 2.26 0 0 1 .6-1.26.36.36 0 0 1 .24-.08.67.67 0 0 1 .47.22.54.54 0 0 1 .17.74M14.65 2.24a.91.91 0 0 0-.89-.89A8.75 8.75 0 0 0 7.27 3.5L5.64 5.4l-2.4-.5a1 1 0 0 0-.92.27l-.68.68a1 1 0 0 0-.28.81 1 1 0 0 0 .45.74l2.06 1.32.13.08 3.2 3.25.08.08 1.32 2.06a1 1 0 0 0 .74.45h.11a1 1 0 0 0 .7-.29l.68-.68a1 1 0 0 0 .27-.92l-.5-2.39 1.84-1.58a8.8 8.8 0 0 0 2.21-6.54M3.11 6.15l1.32.28-.64.75-1-.67zm6.38 7.1-.67-1 .75-.64.28 1.32zm2.39-5.11.18.17zm-.28-.28L7.92 11 5 8.08 8.14 4.4a7.44 7.44 0 0 1 5.26-1.8 7.48 7.48 0 0 1-1.8 5.26">
+                                </path>
+                                <path
+                                    d="M11.13 6.63a1.19 1.19 0 0 0-.06-1.7 1.16 1.16 0 1 0-1.64 1.63 1.2 1.2 0 0 0 1.7.07">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="mini-title lowpaddingbutton">Sin costo mensual y comisión por venta</h3>
+                        <p>No pagás mensualidad. Tampoco abonás comisión por venta gracias a Pago Nube, nuestra solución
+                            de
+                            pagos automatizada.</p>
+                    </div>
+                </div>
+                <div class="card-container redonda">
+                    <div>
+                        <div class="iconitos circulo">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 .52A7.77 7.77 0 0 0 0 8a7.77 7.77 0 0 0 8 7.48A7.77 7.77 0 0 0 16 8 7.77 7.77 0 0 0 8 .52m0 13.71A6.51 6.51 0 0 1 1.25 8 6.51 6.51 0 0 1 8 1.77 6.51 6.51 0 0 1 14.75 8 6.51 6.51 0 0 1 8 14.23">
+                                </path>
+                                <path
+                                    d="M9 7.38H7A.34.34 0 0 1 6.69 7h.01a.34.34 0 0 1 .3-.29h1.94a.34.34 0 0 1 .33.29h1.25a1.59 1.59 0 0 0-1.58-1.54h-.32V4.21H7.37v1.25H7A1.59 1.59 0 0 0 5.44 7a1.55 1.55 0 0 0 .35 1A1.59 1.59 0 0 0 7 8.62h2a.34.34 0 0 1 .33.38.33.33 0 0 1-.33.29H7.08A.33.33 0 0 1 6.75 9H5.49a1.58 1.58 0 0 0 1.58 1.54h.31v1.25h1.24v-1.25H9A1.58 1.58 0 0 0 10.56 9a1.5 1.5 0 0 0-.34-1A1.59 1.59 0 0 0 9 7.38">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="mini-title lowpaddingbutton">Una tienda con el estilo de tu marca</h3>
+                        <p>Contás con más de 60 plantillas de diseño que podés personalizar sin ayuda de
+                            desarrolladores.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-container redonda">
+                    <div>
+                        <div class="iconitos circulo">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="m9.539.613-3.9 14.55 1.209.324L10.746.937 9.54.612zm-5.63 3.434L.598 7.137a1.24 1.24 0 0 0 0 1.821l3.25 3.091.921-.85-3.321-3.15 3.321-3.112zm11.893 3.091-3.31-3.091-.861.91 3.32 3.091-3.32 3.111.92.85 3.251-3.05a1.24 1.24 0 0 0 0-1.821">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="mini-title lowpaddingbutton">Integración con canales de venta</h3>
+                        <p>Integrá tu tienda con distintos canales de venta y llevá tus productos a donde están tus
+                            clientes. ¡Llegá a nuevas personas y aumentá tus ventas!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- tercera section -->
+    <section class="section espaciosuperior120px espacio-inf-120px">
+        <div class="conteiner">
+            <h2 class="section titulo">100% gratis para siempre</h2>
+            <div class="alineador ">
+                <img class="achicador" src="imgs/steps-4-2.webp" alt="foto-celular">
+                <div class="columna-de-planes padding-27">
+                    <h3 class="text-big lowpaddingbutton ">¿Por qué elegir el Plan <br>Inicial?</h3>
+                    <div class="texto-flex">
+                        <div class="margin-rgt9 objetsblue circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="m15.12 2.23-9.79 9.78L.88 7.56 0 8.44l5.33 5.34L16 3.11z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p>Dominio “mitiendanube” gratis.</p>
+                    </div>
+                    <div class="texto-flex padding-27">
+                        <div class="margin-rgt9 objetsblue  circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="m15.12 2.23-9.79 9.78L.88 7.56 0 8.44l5.33 5.34L16 3.11z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p>Canales de venta integrados: WhatsApp,<br> Google Shopping y marketplaces.</p>
+                    </div>
+                    <div class="texto-flex padding-27">
+                        <div class="margin-rgt9 objetsblue circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="m15.12 2.23-9.79 9.78L.88 7.56 0 8.44l5.33 5.34L16 3.11z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p>Ventas sin comisión con Pago Nube.</p>
+                    </div>
+                    <div class="texto-flex padding-27">
+                        <div class="margin-rgt9 objetsblue circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="m15.12 2.23-9.79 9.78L.88 7.56 0 8.44l5.33 5.34L16 3.11z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p>Envíos a todo el país con Andreani.</p>
+                    </div>
+                    <div class="texto-flex padding-27">
+                        <div class="margin-rgt9 objetsblue circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="m15.12 2.23-9.79 9.78L.88 7.56 0 8.44l5.33 5.34L16 3.11z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p>+65 diseños fáciles de configurar, sin ayuda <br> de expertos.</p>
+                    </div>
+                    <a class="create-btn margin-top32 redonda azul absolute" role="button"
+                        href="https://www.tiendanube.com/crear-mi-tienda-online">Crear tienda gratis
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cuarto section -->
+    <section class="hero-section  upperpaddin-120 downpadding-120">
+        <div class="slide-colmuns">
+            <div class="columns-testimonial size-h-447 posicion-relativa">
+                <h2 class="section-title ancho50">Conocé algunas de nuestras historias inspiradoras</h2>
+                <button class="invert" id="boton-row-right">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.85 6.69 7.14 1.55l-.7 1 7.12 4.75H.5v1.28h12.76l-6.83 4.86.72 1L14.85 9a1.42 1.42 0 0 0 .65-1.15 1.4 1.4 0 0 0-.65-1.16">
+                        </path>
+                    </svg></button>
+                <button id="boton-row-left"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" viewBox="0 0 16 16">
+                        <path
+                            d="M14.85 6.69 7.14 1.55l-.7 1 7.12 4.75H.5v1.28h12.76l-6.83 4.86.72 1L14.85 9a1.42 1.42 0 0 0 .65-1.15 1.4 1.4 0 0 0-.65-1.16">
+                        </path>
+                    </svg></button>
+                <div class="testimonial-card redonda">
+                    <div class="">
+                        <div class="big-cuote">
+                            “
+                        </div>
+                        <div class="testimonio">
+                            <p class="testimonio">Con la ayuda de Tiendanube y su gran equipo, logramos que Numag se
+                                posicione como una
+                                marca 100% digital que vende lentes de sol y relojes de calidad a todo el mundo.</p>
+                        </div>
+                    </div>
+                    <div class="esquina-inf-izq">
+                        <span>
+                            <p class="nombre-testimonios">Fernando</p>
+                            <a href="">@numagshop</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- quinta section -->
+    <section class="section espaciosuperior120px espacio-inf-120px">
+        <div class="conteiner">
+            <div class="centrado">
+                <h2 class="titulo">¡Te acompañamos a potenciar tu negocio!</h2>
+            </div>
+            <div class="centrado espaciado">
+                <div class="card-container redonda posicion-relativa">
+                    <p class="margin-bottom9">Desarrollá canales de venta</p>
+                    <h3 class="mini-title">Conocé todo sobre cómo hacer <br> publicidad en Instagram</h3>
+                    <div class="margin-top32 down-left">
+                        <a href="">Ver más</a>
+                    </div>
+
+                </div>
+                <div class="card-container redonda posicion-relativa">
+                    <p class="margin-bottom9">Generá ingresos extra</p>
+                    <h3 class="mini-title">¿Querés ganar más dinero por <br> internet? Mirá esta guía <br> completa</h3>
+                    <div class="margin-top32 down-left">
+                        <a href="">Ver más</a>
+                    </div>
+                </div>
+                <div class="card-container redonda posicion-relativa">
+                    <p class="margin-bottom9">Tutoriales y recursos</p>
+                    <h3 class="mini-title">Seguí el paso a paso para crear <br> tu propia Tiendanube</h3>
+                    <div class="margin-top32 down-left">
+                        <a href="">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sexto section -->
+    <section class="section espaciosuperior120px espacio-inf-120px">
+        <div class="centrado">
+            <img class="img fluid" src="imgs/Canais_Intagram_02.webp" alt="mujer-feliz">
+            <div class="columna-de-planes smaller">
+                <h2 class="text-big margin-bottom24">Mostrale al mundo lo que sos capaz de hacer.</h2>
+                <p>Creá tu tienda online con Tiendanube y vendé a todo el país, las 24 horas.</p>
+                <a class="create-btn redonda azul absolute margin-top32" href="">Crear tienda gratis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- septimo section -->
+    <section class="section espaciosuperior120px espacio-inf-120px ">
+        <div class="centrado upper-text">
+            <div class="columna">
+                <div class="col-sm">
+                    <h2 class="text-big">Preguntas frecuentes sobre el Plan Inicial</h2>
+                </div>
+            </div>
+            <div class="columna-de-planes">
+                <div class="acordion texto-flex padding-27 bottom-padding27 espaciado2">
+                    <p class="mini-title">¿Cómo crear una tienda online gratis?</p>
+                    <div class="texto-flex">
+                        <div class="circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 10.18 2.39 4.52l-.89.87 5.59 5.71a1.18 1.18 0 0 0 .86.39 1.13 1.13 0 0 0 .85-.39l5.7-5.7-.88-.89z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="acordion texto-flex padding-27 bottom-padding27 espaciado2">
+                    <p class="mini-title">¿Por qué elegir el Plan Inicial?</p>
+                    <div>
+                        <div class="circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 10.18 2.39 4.52l-.89.87 5.59 5.71a1.18 1.18 0 0 0 .86.39 1.13 1.13 0 0 0 .85-.39l5.7-5.7-.88-.89z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="acordion texto-flex padding-27 bottom-padding27 espaciado2">
+                    <p class="mini-title">¿Por cuánto tiempo puedo tener la tienda online gratis?</p>
+                    <div>
+                        <div class="circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 10.18 2.39 4.52l-.89.87 5.59 5.71a1.18 1.18 0 0 0 .86.39 1.13 1.13 0 0 0 .85-.39l5.7-5.7-.88-.89z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="acordion texto-flex padding-27 bottom-padding27 espaciado2">
+                    <p class="mini-title">¿Cuál es la diferencia entre una tienda online gratis y una con un plan pago?</p>
+                    <div>
+                        <div class="circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 10.18 2.39 4.52l-.89.87 5.59 5.71a1.18 1.18 0 0 0 .86.39 1.13 1.13 0 0 0 .85-.39l5.7-5.7-.88-.89z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="acordion texto-flex padding-27 bottom-padding27 espaciado2">
+                    <p class="mini-title">¿Puedo integrar aplicaciones a mi tienda online gratis?</p>
+                    <div>
+                        <div class="circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 10.18 2.39 4.52l-.89.87 5.59 5.71a1.18 1.18 0 0 0 .86.39 1.13 1.13 0 0 0 .85-.39l5.7-5.7-.88-.89z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="acordion texto-flex padding-27 bottom-padding27 espaciado2">
+                    <p class="mini-title">¿Puedo cambiar a un plan pago después de probar el Plan Inicial?</p>
+                    <div>
+                        <div class="circulito">
+                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 10.18 2.39 4.52l-.89.87 5.59 5.71a1.18 1.18 0 0 0 .86.39 1.13 1.13 0 0 0 .85-.39l5.7-5.7-.88-.89z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-copyrigth">
+            <div class="">
+                <p>2011 - 2025 © Tiendanube - Todos los derechos reservados.</p>
+                <a href="">Políticas, términos y condiciones.</a>
+            </div>
+            <div class="redes-sociales">
+                <a href=""><img loading="lazy" class="red-social-img"
+                        src="https://app-insti-cdn.nuvemshop.com.br/site/dist/images/svgs/social-icons/instagram.svg?v=0c215ea"
+                        alt="Logo instagram"></a>
+                <a href="">
+                    <img loading="lazy" class="red-social-img"
+                        src="https://app-insti-cdn.nuvemshop.com.br/site/dist/images/svgs/social-icons/youtube.svg?v=0c215ea"
+                        alt="Logo youtube">
+                </a>
+                <a href="">
+                    <img loading="lazy" class="red-social-img"
+                        src="https://app-insti-cdn.nuvemshop.com.br/site/dist/images/svgs/social-icons/x.svg?v=0c215ea"
+                        alt="Logo x">
+                </a>
+                <a href="">
+                    <img loading="lazy" class="red-social-img"
+                        src="https://app-insti-cdn.nuvemshop.com.br/site/dist/images/svgs/social-icons/linkedin.svg?v=0c215ea"
+                        alt="Logo linkedin">
+                </a>
+                <a href="">
+                    <img loading="lazy" class="red-social-img"
+                        src="https://app-insti-cdn.nuvemshop.com.br/site/dist/images/svgs/social-icons/facebook.svg?v=0c215ea"
+                        alt="Logo facebook">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,509 @@
+body {
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+.hero-section {
+    background-color: #0050C3;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.botton-padding63 {
+    padding-bottom: 63px;
+}
+
+.hero-div {
+    display: flex;
+}
+
+.col-lg {
+    width: 550px;
+    height: auto;
+}
+
+.padding-low {
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+}
+
+.section-title {
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    padding-top: 130px;
+}
+
+.ancho50 {
+    width: 517px;
+    height: 132px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.text-small {
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.redonda {
+    border-radius: 25px;
+}
+
+.email-fill {
+    /* border-radius: 25px; */
+    size: 523px 60px;
+    box-shadow: none;
+    border-style: none;
+    font-size: 16px;
+    padding-right: 105px;
+}
+
+.padding-10x24 {
+    padding: 10px 24px;
+}
+
+.blanca:hover {
+    transition: all .3s var(--ease-out-expo);
+    color: #ffffff;
+    background-color: #0050C3;
+    border: 1px solid white;
+}
+
+.blanca {
+    color: #0050C3;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.create-btn {
+    box-shadow: none;
+    border-style: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-style: unset;
+}
+
+.centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 42px;
+    text-align: center;
+}
+
+.card-container {
+    border: 0.5px solid #0050C3;
+    padding: 32px 24px 40px;
+    margin: 0;
+    width: 363px;
+    height: 190px;
+}
+
+.card-container a {
+    color: #0050C3;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.positioncards2 {
+    display: flex;
+}
+
+.margin-bottom9 {
+    margin-bottom: 9px;
+}
+
+p {
+    margin: 0;
+}
+
+.espaciosuperior120px {
+    margin-top: 120px;
+}
+
+.espacio-inf-120px {
+    margin-bottom: 120px;
+}
+
+.alineador {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.achicador {
+    height: 523px;
+    width: 544.36px;
+}
+
+.columna-de-planes {
+    margin-left: 109px;
+    padding: 0px 13.5px;
+}
+
+.down-left{
+    position: absolute;
+    left: 2;
+    bottom: 25px;
+}
+
+.col-sm {
+    flex: 0 0 auto;
+    width: 420px;
+    padding: 0px 13.5px;
+    margin-top: -230px;
+}
+
+.acordion{
+    border-bottom: 1px solid rgb(46, 46, 46); 
+}
+
+.smaller {
+    width: 440px;
+    height: 216px;
+}
+
+.testimonial-card {
+    border: 0.5px solid #0050C3;
+    margin: 0;
+    background-color: white;
+    width: 505.2px;
+    height: 350.1px;
+    display: flex;
+    padding: 48px 24px;
+    flex-direction: column;
+    color: black;
+    position: relative;
+}
+
+.testimonial-card a {
+    color: #0050C3;
+    text-decoration: underline;
+}
+
+.esquina-inf-izq {
+    position: absolute;
+    left: 2;
+    bottom: 45px;
+}
+
+.big-cuote {
+    color: black;
+    margin-bottom: 9px;
+    font-size: 120px;
+    line-height: 1;
+    max-height: 50px;
+    margin-left: -6px;
+}
+
+.testimonio {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+#boton-row-left {
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin: 0;
+    border: transparent;
+    color: #0050C3;
+    position: absolute;
+    left: 50px;
+    bottom: 25px;
+}
+
+#boton-row-right {
+    /* no funciona align-items: center;*/
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin: 0;
+    border: transparent;
+    color: #0050C3;
+    position: absolute;
+    left: 2;
+    bottom: 25px;
+}
+
+.posicion-relativa {
+    position: relative;
+}
+
+.invert {
+    transform: scaleX(-1);
+}
+
+.text-big {
+    font-size: 32px;
+    margin: 0;
+}
+
+.margin-top32 {
+    margin-top: 32px;
+}
+
+.margin-rgt9 {
+    margin-right: 9px;
+}
+
+.texto-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.circulito {
+    border-radius: 50%;
+    background-color: #0050c326;
+    width: 31px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo {
+    border-radius: 50%;
+    background-color: #0050c326;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.objetsblue {
+    color: #0050C3;
+}
+
+.iconitos {
+    color: #4b5fa0;
+    width: 7%;
+    height: auto;
+    margin-bottom: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.fluid {
+    height: 382px;
+    width: 523px;
+}
+
+.mini-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.lowpaddingbutton {
+    padding-bottom: 15px;
+}
+
+.espaciado {
+    gap: 36px;
+}
+
+.espaciado2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-padding27{
+    padding-bottom: 27px;
+}
+
+.azul:hover {
+    transition: 2.5ms;
+    background-color: #ffffff;
+    color: #0050C3;
+    border-width: 1px;
+    border: 1px solid #0050C3;
+}
+
+.upperpaddin-120 {
+    padding-top: 120px;
+}
+
+.downpadding-120 {
+    padding-bottom: 120px;
+}
+
+.size-h-447 {
+    height: 447px;
+}
+
+.columns-testimonial {
+    display: flex;
+}
+
+.imput-btns {
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 160px;
+}
+
+.azul {
+    color: white;
+    background-color: #0050C3;
+    border: 1px solid #0050C3;
+}
+
+.margin-left-30 {
+    margin-left: 30px;
+}
+
+
+
+/* header */
+header {
+    background-color: #0050C3;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding-bottom: 5px;
+}
+
+.row-aling-items {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 160px;
+    height: 40px;
+    filter: invert(100%);
+}
+
+.logo-container {
+    display: flex;
+    margin: 0;
+}
+
+#hero-girl-img {
+    width: 630px;
+    height: 524px;
+    padding-left: 13.5px;
+    margin-left: 109px;
+}
+
+/* este es un contenedor vacío que lo unico que hace es poner los divs 
+con el logo y login bien contra el borde del div principal del header */
+.spacer {
+    width: 70%;
+}
+
+.conteiner-q1 {
+    width: 20%;
+}
+
+/* esto es como esta el log-in */
+.nav-links {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 283px;
+}
+
+/* esto es el iconito del login*/
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    color: #ffffff;
+    width: 70px;
+    padding: 6px 12px;
+}
+
+
+
+/* Finish header */
+
+.section {
+    color: #171E43;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #0050C3;
+
+    padding: 54px 0px;
+}
+
+footer a {
+    color: #c4c0c0;
+}
+
+footer a:hover {
+    transition: 2ms;
+    color: #ffffff;
+}
+
+.footer-copyrigth {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.red-social-img {
+    color: #505050;
+    height: 24px;
+    width: 24px;
+}
+
+.redes-sociales:hover {
+    transition: 2.5ms;
+    color: #ffffff;
+}
+
+.mt-4 {
+    margin-bottom: 27px;
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.padding-27 {
+    padding-top: 27px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.margin-bottom24 {
+    margin-bottom: 24px;
+}
