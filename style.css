@@ -248,6 +248,11 @@ p {
     bottom: 25px;
 }
 
+.alineado{
+    margin-top: 6px;
+    margin-right: 3px;
+}
+
 .posicion-relativa {
     position: relative;
 }
@@ -442,8 +447,6 @@ con el logo y login bien contra el borde del div principal del header */
     width: 70px;
     padding: 6px 12px;
 }
-
-
 
 /* Finish header */
 
